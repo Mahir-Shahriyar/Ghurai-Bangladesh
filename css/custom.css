@@ -1,0 +1,856 @@
+/* Global Style Start Here */
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    color: #202020;
+}
+
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/* Global Style Ends Here */
+
+
+/* *****************  **** Home Page  Style Start Here ****************** ******** */
+
+/* introduce-restaurant Style Start Here */
+
+.introduce-restaurant {
+    padding: 50px 0px;
+}
+
+.introduce-restaurant h1,
+.today-offer h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #124b8c;
+    margin: 0px 0px 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.introduce-restaurant h1 span,
+.today-offer h2 span  {
+    color: #d51e25;
+    font-weight: 700;
+}
+
+.introduce-restaurant-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 35px 0px 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.introduce-restaurant-info h2:nth-last-of-type(odd){
+    color: #124b8c;
+}
+
+.introduce-restaurant-info h2:nth-last-of-type(even){
+    color: #d51e25;
+}
+
+.introduce-restaurant-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.introduce-restaurant-info ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 60px;
+    text-align: justify;
+    display: block;
+}
+
+.introduce-restaurant-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* introduce-restaurant Style Ends Here */
+
+/* Fresh & Testy Style Start Here */
+
+.fresh-testy {
+    background: url(../images/fresh&tasty_banner.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.fresh-testy h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #124b8c;
+    text-transform: uppercase;
+    padding: 90px 0px 90px 110px;
+}
+
+/* Fresh & Testy Style Ends Here */
+
+/* Today offer Style Start Here */
+
+.today-offer {
+    padding: 80px 0px;
+}
+
+.today-offer h2 {
+    margin: 0px 0px 60px;
+}
+
+.today-offer h3 {
+    color: #d51e25;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.today-offer .media h5 {
+    color: #124b8c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.today-offer .media p {
+    text-align: justify;
+    color: #202020;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.today-offer .media p span {
+    font-weight: 700;
+}
+
+.today-offer .media a {
+    color: #d51e25;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+.today-offer .media a:hover {
+    color: #124b8c;
+}
+
+.today-offer .col-md-6:nth-last-of-type(1) h3 {
+    color: #124b8c;
+}
+
+.today-offer .col-md-6:nth-last-of-type(1) h5 {
+    color: #d51e25;
+}
+
+.today-offer .col-md-6:nth-last-of-type(1) a {
+    color: #124b8c;
+}
+
+.today-offer .col-md-6:nth-last-of-type(1) a:hover {
+    color: #d51e25;
+}
+
+/* Today offer Style Ends Here */
+
+
+
+/* *****************  **** Home Page  Style Ends Here ****************** ******** */
+
+
+/* ************************ About Page Style Start Here *************************** */
+
+.about-banner {
+    background: url(../images/about-banner.jpg) no-repeat top;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.about-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(32,32,32,.6);
+    z-index: -1;
+}
+
+.rest-about {
+    margin: 75px 0px;
+}
+
+.rest-about p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lobster',cursive;
+    color: #d51e25;
+    text-align: center;
+    line-height: 38px;
+}
+
+.rest-about iframe {
+    margin: 50px 0px;
+}
+
+/* ************************ About Page Style Ends Here *************************** */
+
+
+/* *************************** Menu Page Style Start Here  ******************************** */
+
+
+/* Header Top Style Start Here */
+
+.header-top {
+    background-color: #d51e25;
+    padding: 15px 0px;
+}
+
+.header-top p {
+    margin-bottom: 0px;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header-top p a {
+    color: #fff;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+.header-top p a:hover {
+    color: #29f058;
+}
+
+.social-icon ul li {
+    display: inline-block;
+}
+
+.social-icon ul {
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+}
+
+.social-icon ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 20px;
+    line-height: 20px;
+    transition: .4s all;
+}
+
+.social-icon ul li a:hover {
+    color: #29f058;
+}
+
+/* Header Top Style Ends Here */
+
+/* Header Style Start Here */
+
+.header {
+    background-color: #fff;
+}
+
+.header nav {
+    padding: 0px;
+    margin-top: -1px;
+}
+
+.header .navbar-brand {
+    padding: 7px 0px;
+    margin-right: 0px;
+}
+
+.header ul {
+    margin: 0px;
+}
+
+.header ul li .nav-link {
+    padding: 37px 23px !important;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #d51e25;
+    transition: .4s all;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header ul li .nav-link:hover {
+    background-color: #d51e25;
+    color: #fff;
+}
+
+.active {
+    background-color: #d51e25;
+    color: #fff !important;
+}
+
+/* Header Style Ends Here */
+
+/* Menu Banner Style Start Here */
+
+.menu-banner {
+    background: url(../images/menu-banner.jpg) no-repeat top;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(32,32,32,.6);
+    z-index: -1;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 140px 0px;
+}
+
+.banner-text h1 {
+    color: #d51e25;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 0px 15px;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.banner-text h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.banner-text h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Menu Banner Style Ends Here */
+
+/* Menu List Style Start Here */
+
+.menu-list {
+    padding: 75px 0px;
+}
+
+.menu-list h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #124b8c;
+    margin: 0px 0px 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-list h2 span {
+    color: #d51e25;
+    font-weight: 700;
+}
+
+/* Isotop CSS Here */
+
+.grid-item { 
+    width: 100%; 
+}
+
+/* Isotop CSS Ends Here */
+
+.menu-list .filter button {
+    width: 100%;
+    padding: 15px;
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s all;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.menu-list .filter button:hover {
+    color: rgb(213, 30, 37);
+    box-shadow: rgb(213, 30, 37) 0px 0px 10px -2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+} 
+
+.menu-list .media {
+    margin-bottom: 25px;
+}
+
+.menu-list .media img {
+    width: 170px;
+    height: 170px;
+    margin-right: 40px !important;
+} 
+
+.menu-list .media .media-body h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #202020;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-list .media .media-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #202020;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 40px;
+}
+
+/* Menu List Style Ends Here */
+
+/* Footer Style Start Here */
+
+.footer {
+    background: url(../images/footer.jpg) no-repeat top;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 90px 0px;
+}
+
+.footer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(32,32,32,.8);
+    z-index: -1;
+}
+
+.footer h3 {
+    color: #d51e25;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    margin-bottom: 30px !important;
+    padding: 0px;
+}
+
+.footer address {
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px !important;
+    line-height: 30px;
+}
+
+.footer ul {
+    margin-bottom: 20px !important;
+}
+
+.footer ul li {
+    display: inline-block;
+
+}
+
+.footer ul li i {
+    margin-right: 18px;
+    color: #d51e25;
+    font-size: 20px;
+}
+
+.footer ul li a {
+    color: #fff;
+    transition: .4s all;
+    text-decoration: none;
+}
+
+.footer h5 {
+    color: #d51e25;
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    color: #fff; 
+}
+
+.footer input[type="email"] {
+    padding: 10px 0px 10px 12px;
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.footer button {
+    color: #fff;
+    background-color: #d51e25;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 25px;
+    width: 209px;
+    height: 50px;     
+    transition: .4s all;  
+}
+
+.footer-bottom {
+    background-color: #d51e25;
+    color: #fff;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+.footer-bottom a:hover {
+    color: #202020;
+}
+
+/* Footer Style Ends Here */
+
+/* *************************** Menu Style Ends Here  ******************************** */
+
+/* *********************** Gallery Style Start Here **************************** */
+
+.gallery-list {
+    padding: 60px 0px;
+}
+
+.gallery-list h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #124b8c;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.gallery-list h1 span{
+    color: #d51e25;
+}
+
+.gallery-box {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.gallery-box::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 85%;
+    width: 85%;
+    background-color: rgba(32,32,32,.8);
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .4s all;
+}
+
+.gallery-box img {
+    width: 100%;
+}
+
+.gallery-box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: 1.2s all;  
+}
+
+.gallery-box:hover::after,
+.gallery-box:hover .gallery-box-text {
+    opacity: 1;
+}
+
+.gallery-box-text h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #fff;
+}
+
+/* *********************** Gallery Style Ends Here **************************** */
+
+/* ************************* Events Style Start Here ****************************** */
+
+.events-banner {
+    background: url(../images/events-banner.jpg) no-repeat top;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.events-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(32,32,32,.8);
+    z-index: -1;
+}
+
+.birthday-event,
+.marriage-event {
+    padding: 60px 0px;
+}
+
+.birthday-event h2,
+.marriage-event h2 {
+    color: #d51e25;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.birthday-event .card img,
+.marriage-event .card img {
+    width: 100%;
+}
+
+.birthday-event .card,
+.marriage-event .card {
+    border: none;
+}
+
+.birthday-event .card .card-body,
+.marriage-event .card .card-body {
+    text-align: center;
+    transition: .4s all;
+}
+
+.birthday-event .card .card-body:hover,
+.marriage-event .card .card-body:hover {
+    background-color: rgb(213, 30, 37,.6);
+    color: #fff !important;
+}
+
+.birthday-event .card .card-body h3,
+.marriage-event .card .card-body h3 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+
+/* ************************* Events Style Ends Here ****************************** */
+
+
+/* ************************** Contact Style Start Here *************************** */
+
+.contact-banner {
+    background: url(../images/contact-map.jpg) no-repeat top;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(32,32,32,.8);
+    z-index: -1;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.contact h1 {
+    color: #d51e25;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.contact i {
+    color: #d51e25;
+    display: block;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    padding: 0px 0px 15px 0px;
+}
+
+.contact address {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #202020;
+}
+
+.contact a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #202020;
+    transition: .4s all;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #d51e25;
+}
+
+.reservation {
+    margin-bottom: 45px;
+}
+
+.reservation h2 {
+    color: #124b8c;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.reservation .form-group label {
+    line-height: 28px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.reservation .form-group label span {
+    color: #d51e25;
+    padding-left: 7px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    color: #202020;
+    border: none;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out;
+}
+
+.reservation .form-group input[type="text"],
+.reservation .form-group input[type="email"],
+.reservation .form-group textarea {
+    width: 100%;
+    padding: 11px 15px;
+    border: 1px solid #202020;
+}
+
+.reservation button {
+    background-color: #124b8c;
+    color: #fff;
+    padding: 12px 35px;
+    text-align: center;
+    border-radius: 0;
+    transition: .4s all;
+    margin-top: 20px;
+}
+
+.reservation button:hover {
+    color: #d51e25;
+    background-color: #fff;
+    border: 3px solid #d51e25;
+}
+
+.rest-map h2 {
+    color: #124b8c;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.rest-map h2 span {
+    color: #d51e25;
+}
+
+.rest-map iframe {
+    width: 100%;
+    height: 350px;
+}
+
+/* ************************** Contact Style Ends Here *************************** */

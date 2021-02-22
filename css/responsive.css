@@ -1,0 +1,635 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .introduce-restaurant h1, .today-offer h2 {
+        font-size: 32px;
+    }
+
+    .introduce-restaurant-info ul li {
+        font-size: 16px;
+        line-height: 30px;
+        padding-right: 0px;
+        margin-bottom: 7px;
+    }
+
+    .introduce-restaurant-info p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .introduce-restaurant-info h2 {
+        font-size: 22px;
+        line-height: 22px;
+        padding: 15px 0px 0px;
+        margin-bottom: 10px;
+    }
+
+    .fresh-testy h2 {
+        font-size: 30px;
+        line-height: 42px;
+        padding: 100px 0px 100px 147px;
+    }
+
+
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-top p {
+        font-size: 14px;
+    }
+
+    .navbar-toggler .icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+        display: block;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    .navbar-toggler .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+
+    .navbar-toggler {
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .header ul li .nav-link {
+        padding: 15px 0px !important;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        width: 70%;
+        margin-left: 17%;
+    }
+
+    .introduce-restaurant {
+        padding: 25px 0px;
+    }
+
+    .introduce-restaurant h1, .today-offer h2 {
+        font-size: 24px;
+        line-height: 19px;
+    }
+
+    .introduce-restaurant-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0px 0px 0px;
+    }
+
+    .introduce-restaurant-info p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .introduce-restaurant-info ul li {
+        font-size: 15px;
+        line-height: 25px;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .fresh-testy h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 55px 0px 55px 94px;
+    }
+
+    .today-offer h2 {
+        margin: 0px 0px 35px;
+    }
+
+    .today-offer h3 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+    .media img {
+        width: 56%;
+    }
+
+    .today-offer .media h5 {
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .today-offer .media p {
+        text-align: justify;
+        color: #202020;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .today-offer .media p br{
+        display: none;
+    }
+
+    .menu-banner,
+    .contact-banner {
+        height: auto;
+    }
+
+    .banner-text h1,
+    .contact-banner h1 {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 0px 0px 10px;
+    }
+
+    .menu-list {
+        padding: 30px 0px;
+    }
+
+    .menu-list h2 {
+        font-size: 29px;
+        line-height: 39px;
+        margin: 0px 0px 40px;
+    }
+
+    .menu-list .media img {
+        margin-right: 20px !important;
+    }
+
+    .menu-list .media .media-body h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 7px 0px !important;
+    }
+
+    .menu-list .media .media-body p {
+        font-size: 15px;
+        line-height: 23px;
+        padding-right: 0px;
+    }
+
+    .contact {
+        margin-bottom: 20px;
+    }
+
+    .contact h1 {
+        font-size: 27px;
+        line-height: 38px;
+        padding: 40px 0px;
+    }
+
+    .contact i {
+        font-size: 26px;
+        line-height: 40px;
+        padding: 0px 0px 9px 0px;
+    }
+
+    .events-banner {
+        height: auto;
+    }
+
+    .birthday-event, .marriage-event {
+        padding: 30px 0px;
+    }
+
+    .birthday-event h2, .marriage-event h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .birthday-event .card .card-body, .marriage-event .card .card-body {
+        padding: 15px;
+    }
+
+    .birthday-event .card .card-body h3, .marriage-event .card .card-body h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+}
+
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-header .navbar-toggle {
+        border: 1px solid #ddd;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect {
+        border: 0px solid transparent;
+        padding: 10px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(2).icon-bar {
+        background: #000;
+        width: 30px;        
+        -webkit-transform: rotate(45deg);
+        -mox-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: 4px;
+        height: 4px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(3).icon-bar {
+        background: #000;
+        height: 4px;
+        position: relative;
+        top: -4px;        
+        -webkit-transform: rotate(-45deg);
+        -mox-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    .navbar-header .navbar-toggle .icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+    }
+    
+    
+    .navbar-collapse {
+        background-color: rgba(0,0,0, .95);
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;    
+        border-bottom: 3px solid #222624;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    ul.navbar-nav li a{
+        padding:6px 15px;
+    }  
+    ul.navbar-nav > li > ul.sub-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 111;
+        background: transparent;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+        padding-left: 20px;
+    }
+    
+    ul.navbar-nav li:last-child,
+    ul.navbar-nav li, .nav-menu ul li ul.sub-menu li:last-child,
+    ul.navbar-nav li ul.sub-menu li{
+        border: 0px none;
+    }    
+    ul.navbar-nav li{
+        display: block;
+        width: 100%;
+    }
+    ul.navbar-nav li ul.sub-menu li:hover{
+        background: transparent;
+    }
+    ul.navbar-nav li ul.sub-menu li a{
+        padding:3px 0px 3px 15px;
+    } 
+    ul.navbar-nav li a:hover,
+    ul.navbar-nav li.current_page_item a{
+        background: transparent;
+    }
+    
+    ul.navbar-nav > li > ul.sub-menu li.menu-item-has-children:before{
+        display: none;
+    }    
+    
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        padding-left: 20px;
+    }    
+    
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu{
+        left: auto;
+    }
+
+    .navbar-toggler .icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+        display: block;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    .navbar-toggler .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+
+    .navbar-toggler {
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .header .navbar-brand img {
+        width: 65%;
+        margin-left: 5px;
+    }
+
+    .header ul li .nav-link {
+        padding: 15px 0px !important;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .header-top p {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+
+    .social-icon {
+        text-align: center !important;
+    }
+
+    .introduce-restaurant h1, .today-offer h2 {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0px 0px 15px;
+    }
+    
+    .introduce-restaurant-info h2 {
+        font-size: 17px;
+        line-height: 27px;
+        padding: 0px 0px 0px;
+        margin-bottom: 5px;
+    }
+
+    .introduce-restaurant-info p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .introduce-restaurant-info ul li {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .introduce-restaurant-img img {
+        display: none;
+    }
+
+    .fresh-testy h2 {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 45px 0px 20px 30px;
+    }
+
+    .today-offer h3 {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .today-offer .media a {
+        font-size: 13px;
+    }
+
+    .today-offer .media p {
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 0px;
+    }
+
+    .today-offer .media h5 {
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .media img {
+        width: 30%;
+    }
+
+    .today-offer {
+        padding: 25px 0px;
+    }
+
+    .today-offer .media p br{
+        display: none;
+    }
+
+    .footer {
+        padding: 15px 40px 35px 40px;
+    }
+
+    .footer address {
+        margin-bottom: 5px !important;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 5px !important;
+        margin-top: 25px;
+    }
+
+    .footer ul li a {
+        font-size: 13px;
+    }
+
+    .footer ul li i {
+        margin-right: 4px;
+        font-size: 16px;
+    }
+
+    .footer ul {
+        margin-bottom: 10px !important;
+    }
+    
+    .footer h5 {
+        font-size: 14px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+
+    .footer button {
+        padding: 6px 0px;
+        margin-top: 15px;
+        font-size: 14px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .footer-bottom p {
+        margin-bottom: 10px;
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .footer-bottom {
+        padding: 15px 0px;
+    }
+
+    .social-icon ul li a {
+        padding: 15px 25px;
+        line-height: 22px;
+    }
+
+    .menu-banner,
+    .contact-banner,
+    .about-banner,
+    .events-banner {
+        height: auto;
+    }
+
+    .banner-text {
+        padding: 40px 0px;
+    }
+
+    .banner-text h1 {
+        font-size: 25px;
+        line-height: 25px;
+        padding: 0px 0px 10px;
+    }
+
+    .menu-list {
+        padding: 30px 0px;
+    }
+
+    .menu-list h2,
+    .contact h1  {
+        font-size: 25px;
+        line-height: 36px;
+        margin: 0px 0px 10px;
+    }
+
+    .filter {
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .menu-list .filter button {
+        padding: 8px;
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .menu-list .media img {
+        width: 130px;
+        height: 130px;
+        margin-right: 15px !important;
+    }
+
+    .menu-list .media .media-body h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0px !important;
+    }
+    
+    .menu-list .media .media-body p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        padding-right: 0px;
+    }
+
+    .contact i {
+        font-size: 30px;
+        line-height: 45px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .contact h1 {
+        padding: 25px 0px;
+    }
+
+    .contact a {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .contact {
+        margin-bottom: 25px;
+    }
+
+    .reservation h2,
+    .rest-map h2 {
+        font-size: 23px;
+        line-height: 33px;
+        padding: 10px 0px;
+    }
+
+    .rest-about p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .rest-about {
+        margin: 30px 0px;
+    }
+
+    .birthday-event h2, .marriage-event h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+
+    .birthday-event .card, .marriage-event .card {
+        box-shadow: rgb(213, 30, 37) 0px 0px 10px -2px;
+        margin-bottom: 35px;
+    }
+
+    .birthday-event .card .card-body h3, .marriage-event .card .card-body h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .birthday-event, .marriage-event {
+        padding: 25px 0px;
+    }
+
+    .gallery-list {
+        padding: 30px 0px;
+    }
+
+    .gallery-list h1 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+}
