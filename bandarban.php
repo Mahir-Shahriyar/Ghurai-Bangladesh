@@ -28,7 +28,30 @@
 
     <body>
         <!-- Header Top Section Start Here -->
-
+        <section class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="call-info">
+                            <p>Call for Reservation :
+                                <a href="tel:017711-208-4041">01771-120840-41 </a> /
+                                <a href="tel:024-895-5952">+88 02 48955952</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="social-icon text-right">
+                            <ul>
+                                <li><a href="https://www.google.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.google.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.google.com/"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.google.com/"><i class="fab fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Header Top Section Ends Here -->
 
         <!-- Header Section Start Here -->
@@ -37,7 +60,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#"><img src="images/GB_icon.png " alt="Logo"></a>
+                            <a class="navbar-brand" href="#"><img src="images/Jenenin-site-logo-2.png" alt="Logo"></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <!-- <span class="navbar-toggler-icon"></span> -->
                                 <span class="sr-only">Toggle navigation </span>
@@ -83,75 +106,55 @@
         <section class="birthday-event">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h2>Tourist Place</h2>
 
-                    </div>
                     <div class="col-md-4 col-sm-4">
                         <a href="cox.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/cox.jpg">
+                                <img class="card-img-top" src="images/hotel.jpg">
                                 <div class="card-body">
-                                    <h3>Cox Bazar</h3>
+                                    <h3>Hotel</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                     </a>
                     <div class="col-md-4 col-sm-4">
-                      <a href="sylhet.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/syllet.jpg">
+                                <img class="card-img-top" src="images/place.jpg">
                                 <div class="card-body">
-                                    <h3>Sylhet</h3>
+                                    <h3>Other Places</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                      </a>
                     <div class="col-md-4 col-sm-4">
-                      <a href="sajek.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/sajek.jpg">
+                                <img class="card-img-top" src="images/coxtransport.jpg">
                                 <div class="card-body">
-                                    <h3>Sajek</h3>
+                                    <h3>Transport</h3>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                      </a>
                 </div>
             </div>
-
         </section>
         <section class="birthday-event">
             <div class="container">
                 <div class="row">
 
                     <div class="col-md-4 col-sm-4">
-                      <a href="rangamati.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/rangamati.jpg">
+                                <img class="card-img-top" src="images/birthday-events1.jpg">
                                 <div class="card-body">
-                                    <h3>Rangamati</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </a>
-
-                    <div class="col-md-4 col-sm-4">
-
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/bandarban.jpg">
-                                <div class="card-body">
-                                    <h3>Bandarban</h3>
-
+                                    <h3>Birthday Party</h3>
+                                    <h5>8 pm</h5>
+                                    <p>Date:02 August 2020</p>
                                 </div>
                             </div>
                         </div>
@@ -159,10 +162,23 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/sundorban.jpg">
+                                <img class="card-img-top" src="images/birthday-events2.jpg">
                                 <div class="card-body">
-                                    <h3>Sundarban</h3>
-
+                                    <h3>Birthday Party</h3>
+                                    <h5>8 pm</h5>
+                                    <p>Date:03 August 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img class="card-img-top" src="images/birthday-events3.jpg">
+                                <div class="card-body">
+                                    <h3>Birthday Party</h3>
+                                    <h5>8 pm</h5>
+                                    <p>Date:04 August 2020</p>
                                 </div>
                             </div>
                         </div>
