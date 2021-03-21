@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Booking</title>
+        <title>Cox</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -99,7 +99,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="images/place.jpg">
                                 <div class="card-body">
-                                    <h3>Other Places</h3>
+                                    <h3>tourist Sport</h3>
                                 </div>
                             </div>
                         </div>

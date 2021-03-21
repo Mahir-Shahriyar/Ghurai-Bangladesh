@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Booking</title>
+        <title>Bandarban</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -111,7 +111,7 @@
                         <a href="cox.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/hotel.jpg">
+                                <img class="card-img-top" src="images/bh.jpg">
                                 <div class="card-body">
                                     <h3>Hotel</h3>
                                 </div>
@@ -122,9 +122,9 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/place.jpg">
+                                <img class="card-img-top" src="images/bbtp.jpg">
                                 <div class="card-body">
-                                    <h3>Other Places</h3>
+                                    <h3>Tourist Place</h3>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/coxtransport.jpg">
+                                <img class="card-img-top" src="images/bt.jpg">
                                 <div class="card-body">
                                     <h3>Transport</h3>
 
@@ -143,51 +143,23 @@
                 </div>
             </div>
         </section>
-        <section class="birthday-event">
-            <div class="container">
-                <div class="row">
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/birthday-events1.jpg">
-                                <div class="card-body">
-                                    <h3>Birthday Party</h3>
-                                    <h5>8 pm</h5>
-                                    <p>Date:02 August 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/birthday-events2.jpg">
-                                <div class="card-body">
-                                    <h3>Birthday Party</h3>
-                                    <h5>8 pm</h5>
-                                    <p>Date:03 August 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/birthday-events3.jpg">
-                                <div class="card-body">
-                                    <h3>Birthday Party</h3>
-                                    <h5>8 pm</h5>
-                                    <p>Date:04 August 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Birthday Event Section Ends Here -->
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <!-- MARRIAGE Event Section Start Here -->
 
         <!-- MARRIAGE Event Section Ends Here -->
