@@ -455,6 +455,15 @@ ul {
 
 /* Menu List Style Ends Here */
 
+.booking-btn{
+    background-image: linear-gradient(270deg, #01640e 0%, #b91b1b 100%);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 22px;
+    cursor: pointer;
+}
+
 /* Footer Style Start Here */
 
 .footer {
