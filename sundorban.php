@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Booking</title>
+        <title>Rangamati</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -28,7 +28,30 @@
 
     <body>
         <!-- Header Top Section Start Here -->
-
+        <section class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="call-info">
+                            <p>Call for Reservation :
+                                <a href="tel:017711-208-4041">01771-120840-41 </a> /
+                                <a href="tel:024-895-5952">+88 02 48955952</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="social-icon text-right">
+                            <ul>
+                                <li><a href="https://www.google.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.google.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.google.com/"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.google.com/"><i class="fab fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Header Top Section Ends Here -->
 
         <!-- Header Section Start Here -->
@@ -37,7 +60,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#"><img src="images/GB_icon.png " alt="Logo"></a>
+                            <a class="navbar-brand" href="#"><img src="images/GB_icon.png" alt="Logo"></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <!-- <span class="navbar-toggler-icon"></span> -->
                                 <span class="sr-only">Toggle navigation </span>
@@ -51,9 +74,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
-
+                                    
                                     <li class="nav-item">
-                                        <a class="nav-link" href="menu.html">Spots</a>
+                                        <a class="nav-link" href="menu.html">Menu</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="gallery.html">Gallery</a>
@@ -81,89 +104,35 @@
         <section class="birthday-event">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h2>Tourist Place</h2>
 
-                    </div>
                     <div class="col-md-4 col-sm-4">
                         <a href="cox.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/cox.jpg">
+                                <img class="card-img-top" src="images/sbhotel.jpg">
                                 <div class="card-body">
-                                    <h3>Cox Bazar</h3>
+                                    <h3>Hotel</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                     </a>
                     <div class="col-md-4 col-sm-4">
-                      <a href="sylhet.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/syllet.jpg">
+                                <img class="card-img-top" src="images/sbspot.jpg">
                                 <div class="card-body">
-                                    <h3>Sylhet</h3>
+                                    <h3>Tourist Spot</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                      </a>
                     <div class="col-md-4 col-sm-4">
-                      <a href="sajek.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/sajek.jpg">
+                                <img class="card-img-top" src="images/sbship.jpg">
                                 <div class="card-body">
-                                    <h3>Sajek</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                      </a>
-                </div>
-            </div>
-
-        </section>
-        <section class="birthday-event">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-4">
-                      <a href="rangamati.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/rangamati.jpg">
-                                <div class="card-body">
-                                    <h3>Rangamati</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </a>
-
-                    <div class="col-md-4 col-sm-4">
-                      <a href="bandarban.php">
-
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/bandarban.jpg">
-                                <div class="card-body">
-                                    <h3>Bandarban</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </a>
-                  
-                    <div class="col-md-4 col-sm-4">
-                        <a href="sundorban.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/sundorban.jpg">
-                                <div class="card-body">
-                                    <h3>Sundarban</h3>
+                                    <h3>Transport</h3>
 
                                 </div>
                             </div>
@@ -172,13 +141,26 @@
                 </div>
             </div>
         </section>
+
         <!-- Birthday Event Section Ends Here -->
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <!-- MARRIAGE Event Section Start Here -->
 
         <!-- MARRIAGE Event Section Ends Here -->
-
-
 
         <!-- Footer Section Start Here -->
         <section class="footer-bottom">

@@ -124,7 +124,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="images/place.jpg">
                                 <div class="card-body">
-                                    <h3>Tourist Sport</h3>
+                                    <h3>Tourist Spot</h3>
                                 </div>
                             </div>
                         </div>

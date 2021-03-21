@@ -74,9 +74,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About us</a>
-                                    </li>
+                                    
                                     <li class="nav-item">
                                         <a class="nav-link" href="menu.html">Menu</a>
                                     </li>
@@ -111,7 +109,7 @@
                         <a href="cox.php">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/hotel.jpg">
+                                <img class="card-img-top" src="images/rhotel.png">
                                 <div class="card-body">
                                     <h3>Hotel</h3>
                                 </div>
@@ -122,9 +120,9 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/place.jpg">
+                                <img class="card-img-top" src="images/rspot.jpg">
                                 <div class="card-body">
-                                    <h3>Other Places</h3>
+                                    <h3>Tourist Spot</h3>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +130,7 @@
                     <div class="col-md-4 col-sm-4">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="images/coxtransport.jpg">
+                                <img class="card-img-top" src="images/rbus.jpg">
                                 <div class="card-body">
                                     <h3>Transport</h3>
 
