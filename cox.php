@@ -28,30 +28,7 @@
 
     <body>
         <!-- Header Top Section Start Here -->
-        <section class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="call-info">
-                            <p>Call for Reservation :
-                                <a href="tel:017711-208-4041">01771-120840-41 </a> /
-                                <a href="tel:024-895-5952">+88 02 48955952</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="social-icon text-right">
-                            <ul>
-                                <li><a href="https://www.google.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.google.com/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.google.com/"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.google.com/"><i class="fab fa-google"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- Header Top Section Ends Here -->
 
         <!-- Header Section Start Here -->
@@ -74,9 +51,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About us</a>
-                                    </li>
+
                                     <li class="nav-item">
                                         <a class="nav-link" href="menu.html">Menu</a>
                                     </li>
@@ -143,51 +118,23 @@
                 </div>
             </div>
         </section>
-        <section class="birthday-event">
-            <div class="container">
-                <div class="row">
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/birthday-events1.jpg">
-                                <div class="card-body">
-                                    <h3>Birthday Party</h3>
-                                    <h5>8 pm</h5>
-                                    <p>Date:02 August 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/birthday-events2.jpg">
-                                <div class="card-body">
-                                    <h3>Birthday Party</h3>
-                                    <h5>8 pm</h5>
-                                    <p>Date:03 August 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/birthday-events3.jpg">
-                                <div class="card-body">
-                                    <h3>Birthday Party</h3>
-                                    <h5>8 pm</h5>
-                                    <p>Date:04 August 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Birthday Event Section Ends Here -->
-
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br><br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
         <!-- MARRIAGE Event Section Start Here -->
 
         <!-- MARRIAGE Event Section Ends Here -->
@@ -197,7 +144,7 @@
             <div class="container">
                 <div class="col-md-12 col-sm-12">
                     <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-                  
+
                 </div>
             </div>
         </section>
