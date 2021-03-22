@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Booking</title>
+        <title>Sign in</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -24,6 +24,7 @@
 
         <!-- Responsive Style -->
 	    <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/semantic.min.css">
     </head>
 
     <body>
@@ -62,7 +63,7 @@
                                         <a class="nav-link active" href="booking.html">Booking</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="signin.html">Sign In/Up</a>
+                                        <a class="nav-link" href="signin.html">SignUP/IN</a>
                                     </li>
                                 </ul>
                             </div>
@@ -71,6 +72,39 @@
                 </div>
             </div>
         </header>
+
+        <section class = "login">
+                    
+            <div class="ui  text container" style= "text-align: center;">
+                <div style = "background-image: url('images/login.jpg '); background-size: cover; height: 400px;padding: 20px;">
+                     <div class="ui  text container" style= "text-align: left; font-color: #ffffff; padding: 80px;">
+                        <h3>Sign In</h3>
+                        <form method = "post" action = login_fetch.php>
+                            <label> Email </label>
+                            
+                            <div class = "ui input">
+                                <input type="text" name="email" placeholder="Enter Your Email ">
+                            </div>
+                            <br><br>
+                            <label> Password </label>
+                            
+                            <div class="ui input">
+                                <input type="text" name="pass" placeholder="Enter Your Password">
+                            </div>
+                            <br><br>
+
+                             <button class="ui blue button" style= "text-align: center;"> Sign in </button>
+                        </form>
+                        <br>
+                   <p> Don't have an account yet? <a href= "registration.html">Sign-up-here>></a></p>
+                
+                    </div>
+                </div>
+               
+            </div>
+                
+        </section>     
+    
         <!-- Header Section Ends Here -->
 
         <!-- Events Section Start Here -->
@@ -78,111 +112,12 @@
         <!-- Banner Section Ends Here -->
 
         <!-- Birthday Event Section Start Here -->
-        <section class="birthday-event">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h2>Tourist Place</h2>
-
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <a href="cox.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/cox.jpg">
-                                <div class="card-body">
-                                    <h3>Cox Bazar</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
-                    <div class="col-md-4 col-sm-4">
-                      <a href="sylhet.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/syllet.jpg">
-                                <div class="card-body">
-                                    <h3>Sylhet</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                      </a>
-                    <div class="col-md-4 col-sm-4">
-                      <a href="sajek.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/sajek.jpg">
-                                <div class="card-body">
-                                    <h3>Sajek</h3>
-                                </div>
-                            </div>
-                        </div>
-                          </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-        <section class="birthday-event">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-4">
-                      <a href="rangamati.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/rangamati.jpg">
-                                <div class="card-body">
-                                    <h3>Rangamati</h3>
-                                </div>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-
-
-                    <div class="col-md-4 col-sm-4">
-                      <a href="bandarban.php">
-
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/bandarban.jpg">
-                                <div class="card-body">
-                                    <h3>Bandarban</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                          </a>
-                    </div>
-
-
-                    <div class="col-md-4 col-sm-4">
-                        <a href="sundorban.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/sundorban.jpg">
-                                <div class="card-body">
-                                    <h3>Sundarban</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        
         <!-- Birthday Event Section Ends Here -->
 
         <!-- MARRIAGE Event Section Start Here -->
 
         <!-- MARRIAGE Event Section Ends Here -->
-
 
 
         <!-- Footer Section Start Here -->

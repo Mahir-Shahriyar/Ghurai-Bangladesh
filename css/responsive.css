@@ -217,6 +217,12 @@
         line-height: 25px;
     }
 
+    .login .card .card-body h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
 }
 
 
