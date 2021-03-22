@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Cox</title>
+        <title>Booking</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -23,7 +23,8 @@
         <link rel="stylesheet" href="css/custom.css">
 
         <!-- Responsive Style -->
-	    <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/symentic.min.css">
     </head>
 
     <body>
@@ -37,7 +38,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#"><img src="images/GB_icon.png" alt="Logo"></a>
+                            <a class="navbar-brand" href="#"><img src="images/GB_icon.png " alt="Logo"></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <!-- <span class="navbar-toggler-icon"></span> -->
                                 <span class="sr-only">Toggle navigation </span>
@@ -71,91 +72,46 @@
                 </div>
             </div>
         </header>
-        <!-- Header Section Ends Here -->
+    </body>
+<br><br><br><br><br>
+    <body>
+        <?php
+            require_once('db_connect.php');
+            $connect = mysqli_connect( HOST, USER, PASS, DB )
+                 or die("Can not connect");
+            $results = mysqli_query( $connect, "SELECT * FROM transport where Regionregion_id = 102" )
+                   or die("Can not execute query");
 
-        <!-- Events Section Start Here -->
+        //echo "<table border> \n";
+        printf('<div class = "ui text container">');
 
-        <!-- Banner Section Ends Here -->
+        printf('<table class = "ui unstackable table">');
+        
+        echo "<th>  Tansport Type  </th> <th> Transport Class </th> <th> Transport RENT </th> <th></th> <th></th> \n";
 
-        <!-- Birthday Event Section Start Here -->
-        <section class="birthday-event">
-            <div class="container">
-                <div class="row">
+        while( $rows = mysqli_fetch_array( $results ) ) {
+         extract( $rows );
+            echo "<tr>";
+            echo "<td> $transport_type </td>";
+            echo "<td> $transport_class </td>";
+            echo "<td> $transport_rent </td>";
 
-                    <div class="col-md-4 col-sm-4">
-                        <a href="cox_hotel.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/hotel.jpg">
-                                <div class="card-body">
-                                    <h3>Hotel</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
-                    <div class="col-md-4 col-sm-4">
-                        <a href="cox_spot.php">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/place.jpg">
-                                <div class="card-body">
-                                    <h3>tourist Sport</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </a>
-                    <div class="col-md-4 col-sm-4">
-                      <a href="cox_transport.php">
+           echo "<td> <a href = 'booking.html'> Book Now </a> </td>";
+        
+            echo "</tr> \n";
+        }
 
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="images/coxtransport.jpg">
-                                <div class="card-body">
-                                    <h3>Transport</h3>
+       //echo "</table> \n";
+        printf('</table');
+        printf('</div');
 
-                                </div>
-                            </div>
-                        </div>
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Birthday Event Section Ends Here -->
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br><br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-        <!-- MARRIAGE Event Section Start Here -->
 
-        <!-- MARRIAGE Event Section Ends Here -->
+        ?>
 
-        <!-- Footer Section Start Here -->
-        <section class="footer-bottom">
-            <div class="container">
-                <div class="col-md-12 col-sm-12">
-                    <p>© Ghurai Bangladesh. All Rights Reserved.</p>
 
-                </div>
-            </div>
-        </section>
-        <!-- Footer Section Ends Here -->
 
-        <!-- Optional JavaScript -->
+
 
         <!-- jQuery first, then , then  -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

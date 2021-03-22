@@ -108,7 +108,7 @@
                 <div class="row">
 
                     <div class="col-md-4 col-sm-4">
-                        <a href="cox.php">
+                        <a href="sylhet_hotel.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/shotel.jpg">
@@ -120,6 +120,7 @@
                     </div>
                     </a>
                     <div class="col-md-4 col-sm-4">
+                        <a href="sylhet_spot.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/stourist.jpg">
@@ -129,7 +130,9 @@
                             </div>
                         </div>
                     </div>
+                  </a>
                     <div class="col-md-4 col-sm-4">
+                        <a href="sylhet_transport.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/coxtransport.jpg">
@@ -139,6 +142,7 @@
                                 </div>
                             </div>
                         </div>
+                      </a>
                     </div>
                 </div>
             </div>
@@ -174,7 +178,7 @@
             </div>
         </section>
         <!-- Footer Section Ends Here -->
-    
+
         <!-- Optional JavaScript -->
 
         <!-- jQuery first, then , then  -->
