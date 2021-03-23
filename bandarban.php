@@ -108,7 +108,7 @@
                 <div class="row">
 
                     <div class="col-md-4 col-sm-4">
-                        <a href="cox.php">
+                        <a href="bandorban_hotel.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/bh.jpg">
@@ -120,6 +120,7 @@
                     </div>
                     </a>
                     <div class="col-md-4 col-sm-4">
+                        <a href="bandorban_spot.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/bbtp.jpg">
@@ -129,7 +130,9 @@
                             </div>
                         </div>
                     </div>
+                </a>
                     <div class="col-md-4 col-sm-4">
+                        <a href="bandorban_transport.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/bt.jpg">
@@ -139,6 +142,7 @@
                                 </div>
                             </div>
                         </div>
+                    </a>
                     </div>
                 </div>
             </div>
