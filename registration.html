@@ -50,11 +50,11 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="home.html">Home</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="menu.html">Spots</a>
+                                        <a class="nav-link" href="spots.html">Spots</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="gallery.html">Gallery</a>

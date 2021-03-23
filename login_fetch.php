@@ -72,6 +72,11 @@
                 </div>
             </div>
         </header>
+    </body>
+
+    <br><br><br><br><br><br><br>
+    <body>
+        
 
 
 		<?php
@@ -103,7 +108,7 @@
 			   		echo "<td> $person_email </td>";
 			   		echo "<td> $person_password </td>";
 
-			   		echo "<td> <a href='login_update.php?id=$person_id&name=$person_name&email=$person_email&phone=person_phone&pass=$person_password'> Update </a> </td>";
+			   		echo "<td> <a href='update_user_info.php?id=$person_id&name=$person_name&email=$person_email&phone=$person_phone&pass=$person_password'> Update </a> </td>";
 			   		
 			   		echo "<td> <a href='login_delete.php?id=$person_id'> DELETE </a> </td>";
 
@@ -120,29 +125,23 @@
 
 		?>
 
-    </div>
 
 
-		<br><br><br><br><br><br>
-
-
-
-	
-		 <!-- Footer Section Start Here -->
-        <!--<section class="footer-bottom">
+         <!-- Footer Section Start Here -->
+       <!-- <section class="footer-bottom">
             <div class="container">
                 <div class="col-md-12 col-sm-12">
                     <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-                    <!-- <p>Design & Developed By : <a href="#">Group 1</a></p> -->
-                <!--</div>
+                     <p>Design & Developed By : <a href="#">Group 1</a></p> 
+                </div>
             </div>
-        </section>--!>
+        </section>-->
         <!-- Footer Section Ends Here -->
 
-        <!-- Optional JavaScript -->
 
-        <!-- jQuery first, then , then  -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <!-- Popper.js -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <!-- Bootstrap JS -->
@@ -156,4 +155,3 @@
     </body>
 
 </html>
-

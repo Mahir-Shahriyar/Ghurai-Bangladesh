@@ -50,11 +50,11 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="home.html">Home</a>
+                                        <a class="nav-link" href="index.html">Home</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="spots.html">Spots</a>
+                                        <a class="nav-link" href="menu.html">Spots</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="gallery.html">Gallery</a>
@@ -73,70 +73,60 @@
             </div>
         </header>
 
-        <section class = "login">
-                    
-            <div class="ui  text container" style= "text-align: center;">
-                <div style = "background-image: url('images/login.jpg '); background-size: cover; height: 400px;padding: 20px;">
-                     <div class="ui  text container" style= "text-align: left; font-color: #ffffff; padding: 80px;">
-                        <h3>Sign In</h3>
-                        <form method = "post" action = login_fetch.php>
-                            <label> Email </label>
-                            
-                            <div class = "ui input">
-                                <input type="text" name="email" placeholder="Enter Your Email ">
-                            </div>
-                            <br><br>
-                            <label> Password </label>
-                            
-                            <div class="ui input">
-                                <input type="text" name="pass" placeholder="Enter Your Password">
-                            </div>
-                            <br><br>
+    </body>
+    <body>
+		
+		<?php
+			require_once('db_connect.php');
+			session_start();
 
-                             <button class="ui blue button" style= "text-align: center;"> Sign in </button>
-                        </form>
-                        <br>
-                   <p> Don't have an account yet? <a href= "registration.html">Sign-up-here>></a></p>
-                
-                    </div>
-                </div>
-               
-            </div>
-
-            <br><br>
-                
-        </section>     
-    
-        <!-- Header Section Ends Here -->
-
-        <!-- Events Section Start Here -->
-
-        <!-- Banner Section Ends Here -->
-
-        <!-- Birthday Event Section Start Here -->
-        
-        <!-- Birthday Event Section Ends Here -->
-
-        <!-- MARRIAGE Event Section Start Here -->
-
-        <!-- MARRIAGE Event Section Ends Here -->
+			$id= $_GET['id'];
+			$name= $_GET['name'];
+			$email= $_GET['email'];
+			$phone= $_GET['phone'];
+			$pass= $_GET['pass'];
 
 
-        <!-- Footer Section Start Here -->
-        <section class="footer-bottom">
-            <div class="container">
-                <div class="col-md-12 col-sm-12">
-                    <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-                    <!-- <p>Design & Developed By : <a href="#">Group 1</a></p> -->
-                </div>
-            </div>
-        </section>
-        <!-- Footer Section Ends Here -->
+		?>
 
-        <!-- Optional JavaScript -->
+		<div class = 'ui text container'>
 
-        <!-- jQuery first, then , then  -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<form method = 'get' action = 'update_user_info_insert.php'>
+
+				<input type=hidden name= id value='<?php echo $id; ?>'> <br>
+
+
+				<label> Name : </label>
+				<div class = "ui input">
+					<input type = "text" name = name value = "<?php echo $name; ?>">
+				</div>
+				<br><br>
+
+				<label> Email id: </label>
+				<div class = "ui input">
+					<input type = "text" name = email value = "<?php echo $email; ?>">
+				</div>
+				<br><br>
+
+				<label> Phone : </label>
+				<div class = "ui input">
+					<input type = "text" name = phone value = "<?php echo $phone; ?>">
+				</div>
+				<br><br>
+
+				<label> Password: </label>
+				<div class = "ui input">
+					<input type = "text" name = pass value = "<?php echo $pass; ?>">
+				</div>
+				<br><br><br><br>
+
+				<button class="ui green button" type="submit">Submit</button>
+
+			</form>
+		</div>
+
+
+		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <!-- Popper.js -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <!-- Bootstrap JS -->
