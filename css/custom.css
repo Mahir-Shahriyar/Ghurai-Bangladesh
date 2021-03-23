@@ -1,4 +1,4 @@
- Global Style Start Here */
+/* Global Style Start Here */
 
 body {
     font-size: 16px;
@@ -85,7 +85,7 @@ ul {
 /* Fresh & Testy Style Start Here */
 
 .fresh-testy {
-    background: url(../images/fresh&tasty_banner.png) no-repeat center;
+    background: url(../images/kuakata-1.png) no-repeat center;
     background-size: cover;
 
 }
@@ -179,7 +179,7 @@ ul {
 /* ************************ About Page Style Start Here *************************** */
 
 .about-banner {
-    background: url(../images/about-banner.jpg) no-repeat top;
+    background: url(../images/coxs-bazar-1.png) no-repeat top;
     height: 400px;
     background-size: cover;
     position: relative;
@@ -320,7 +320,7 @@ ul {
 /* Menu Banner Style Start Here */
 
 .menu-banner {
-    background: url(../images/menu-banner.jpg) no-repeat top;
+    background: url(../images/rangamati.jpg) no-repeat top;
     height: 400px;
     background-size: cover;
     position: relative;
@@ -464,6 +464,11 @@ ul {
     cursor: pointer;
 }
 
+.card img {
+    width: 100%;
+    height: 130px;
+}
+
 /* Footer Style Start Here */
 
 .footer {
@@ -549,8 +554,8 @@ ul {
     padding: 10px 0px;
     text-align: center;
     margin-top: 25px;
-    width: 109px;
-    height: 20px;     
+    width: 209px;
+    height: 50px;     
     transition: .4s all;  
 }
 
@@ -616,6 +621,7 @@ ul {
 
 .gallery-box img {
     width: 100%;
+    height: 200px;
 }
 
 .gallery-box-text {
@@ -647,7 +653,7 @@ ul {
 /* ************************* Events Style Start Here ****************************** */
 
 .events-banner {
-    background: url(../images/events-banner.jpg) no-repeat top;
+    background: url(../images/chandranath-2.png) no-repeat top;
     height: 400px;
     background-size: cover;
     position: relative;
@@ -710,55 +716,14 @@ ul {
     line-height: 38px;
 }
 
+
 /* ************************* Events Style Ends Here ****************************** */
-
-.login {
-    padding: 60px 0px;
-}
-
-.login h2 {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 50px;
-    margin-bottom: 40px;
-    text-align: center;
-
-}
-
-/*.login .card {
-    border: none;
-}
-
-.login .card .card-body {
-    text-align: center;
-    transition: .4s all;
-}
-
-.login .card img {
-    height: 100%;
-    width: 100%;
-    background-image: cover;
-}
-
-
-.login .card .card-body:hover {
-    background-color: rgb(213, 30, 37,.6);
-    color: #fff !important;
-}
-
-.login .card .card-body h3 {
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 38px;
-}*/
 
 
 /* ************************** Contact Style Start Here *************************** */
 
 .contact-banner {
-    background: url(../images/contact-map.jpg) no-repeat top;
+    background: url(../images/chandranath-3.png) no-repeat top;
     height: 400px;
     background-size: cover;
     position: relative;
@@ -826,7 +791,7 @@ ul {
 }
 
 .reservation h2 {
-    color: #124b8c;
+    color: #d51e25;
     font-size: 30px;
     font-weight: 700;
     line-height: 42px;
@@ -868,7 +833,7 @@ ul {
 }
 
 .reservation button {
-    background-color: #124b8c;
+    background-color: #d51e25;
     color: #fff;
     padding: 12px 35px;
     text-align: center;
@@ -904,4 +869,8 @@ ul {
     height: 350px;
 }
 
-/* ************************** Contact Style Ends Here *************************** 
+/* ************************** Contact Style Ends Here *************************** */
+
+.item img {
+	width: 1000px;
+}
