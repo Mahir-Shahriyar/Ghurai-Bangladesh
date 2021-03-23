@@ -72,76 +72,61 @@
                 </div>
             </div>
         </header>
+
     </body>
-
-    <br><br><br><br><br><br><br>
     <body>
-        
-
-
+		
 		<?php
-			
-			require_once("db_connect.php");
+			require_once('db_connect.php');
 			session_start();
 
-			if(isset($_POST["email"])&&isset($_POST["pass"]) && !empty($_POST['email']) && !empty($_POST['pass']))
-			{
-				$email=$_POST["email"];
-			    $pass = $_POST["pass"];
-
-			    $_SESSION["email"]=$email;
-
-			    $connect = mysqli_connect(HOST, USER, PASS, DB) or die("Cannot connect with database");
-			    $result= mysqli_query($connect, "SELECT * FROM person WHERE person_email = '$email' and person_password = '$pass'") or die ("Cannot execute query");
-
-			  	printf('<div class = "ui text container" >');
-
-			  	printf('<table class = "ui unstackable table">');
-
-			   	echo "<th>  Your Name  </th> <th> Your Phone No </th> <th> Your Email ID </th> <th> Your Password   </th> <th></th> <th></th> \n";
-			   	while($rows= mysqli_fetch_array($result))
-			   	{
-			   		extract($rows);
-			   		echo "<tr>";
-			   		echo "<td> $person_name </td>";
-			   		echo "<td> $person_phone </td>";
-			   		echo "<td> $person_email </td>";
-			   		echo "<td> $person_password </td>";
-
-			   		echo "<td> <a href='update_user_info.php?id=$person_id&name=$person_name&email=$person_email&phone=$person_phone&pass=$person_password'> Update </a> </td>";
-			   		
-			   		echo "<td> <a href='login_delete.php?id=$person_id'> DELETE </a> </td>";
-
-			   		echo "</tr>\n";
-
-
-			   	}
-
-			   	printf('</table');
-			   	printf('</div');
-			}
-
+			$id= $_GET['id'];
+			$name= $_GET['name'];
+			$email= $_GET['email'];
+			$phone= $_GET['phone'];
+			$pass= $_GET['pass'];
 
 
 		?>
 
+		<div class = 'ui text container'>
+
+			<form method = 'get' action = 'update_user_info_insert.php'>
+
+				<input type=hidden name= id value='<?php echo $id; ?>'> <br>
 
 
-         <!-- Footer Section Start Here -->
-       <!-- <section class="footer-bottom">
-            <div class="container">
-                <div class="col-md-12 col-sm-12">
-                    <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-                     <p>Design & Developed By : <a href="#">Group 1</a></p> 
-                </div>
-            </div>
-        </section>-->
-        <!-- Footer Section Ends Here -->
+				<label> Name : </label>
+				<div class = "ui input">
+					<input type = "text" name = name value = "<?php echo $name; ?>">
+				</div>
+				<br><br>
+
+				<label> Email id: </label>
+				<div class = "ui input">
+					<input type = "text" name = email value = "<?php echo $email; ?>">
+				</div>
+				<br><br>
+
+				<label> Phone : </label>
+				<div class = "ui input">
+					<input type = "text" name = phone value = "<?php echo $phone; ?>">
+				</div>
+				<br><br>
+
+				<label> Password: </label>
+				<div class = "ui input">
+					<input type = "text" name = pass value = "<?php echo $pass; ?>">
+				</div>
+				<br><br><br><br>
+
+				<button class="ui green button" type="submit">Submit</button>
+
+			</form>
+		</div>
 
 
-
-
-         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <!-- Popper.js -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <!-- Bootstrap JS -->

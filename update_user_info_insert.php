@@ -72,76 +72,54 @@
                 </div>
             </div>
         </header>
+
     </body>
-
-    <br><br><br><br><br><br><br>
     <body>
-        
-
 
 		<?php
+			$id= $_GET['id'];
+			$name= $_GET['name'];
+			$email= $_GET['email'];
+			$phone= $_GET['phone'];
+			$pass= $_GET['pass'];
 			
-			require_once("db_connect.php");
+			require_once('db_connect.php');
 			session_start();
 
-			if(isset($_POST["email"])&&isset($_POST["pass"]) && !empty($_POST['email']) && !empty($_POST['pass']))
-			{
-				$email=$_POST["email"];
-			    $pass = $_POST["pass"];
-
-			    $_SESSION["email"]=$email;
-
-			    $connect = mysqli_connect(HOST, USER, PASS, DB) or die("Cannot connect with database");
-			    $result= mysqli_query($connect, "SELECT * FROM person WHERE person_email = '$email' and person_password = '$pass'") or die ("Cannot execute query");
-
-			  	printf('<div class = "ui text container" >');
-
-			  	printf('<table class = "ui unstackable table">');
-
-			   	echo "<th>  Your Name  </th> <th> Your Phone No </th> <th> Your Email ID </th> <th> Your Password   </th> <th></th> <th></th> \n";
-			   	while($rows= mysqli_fetch_array($result))
-			   	{
-			   		extract($rows);
-			   		echo "<tr>";
-			   		echo "<td> $person_name </td>";
-			   		echo "<td> $person_phone </td>";
-			   		echo "<td> $person_email </td>";
-			   		echo "<td> $person_password </td>";
-
-			   		echo "<td> <a href='update_user_info.php?id=$person_id&name=$person_name&email=$person_email&phone=$person_phone&pass=$person_password'> Update </a> </td>";
-			   		
-			   		echo "<td> <a href='login_delete.php?id=$person_id'> DELETE </a> </td>";
-
-			   		echo "</tr>\n";
 
 
-			   	}
+			$connect = mysqli_connect(HOST, USER, PASS, DB) or die ("Cannot connect with database");
 
-			   	printf('</table');
-			   	printf('</div');
-			}
+			$result = mysqli_query($connect, "UPDATE person SET person_name = '$name', person_email = '$email', person_phone = '$phone', person_password = '$pass' WHERE person_id = '$id' ") or die ("Cannot Execute Query");
 
+			printf('<div class = "ui text container">');
+			echo "record updated";
+
+			printf('</div>');
 
 
 		?>
 
+		
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
 
 
-         <!-- Footer Section Start Here -->
-       <!-- <section class="footer-bottom">
+		 <!-- Footer Section Start Here -->
+        <section class="footer-bottom">
             <div class="container">
                 <div class="col-md-12 col-sm-12">
                     <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-                     <p>Design & Developed By : <a href="#">Group 1</a></p> 
+                    <!-- <p>Design & Developed By : <a href="#">Group 1</a></p> -->
                 </div>
             </div>
-        </section>-->
+        </section>
         <!-- Footer Section Ends Here -->
 
 
 
 
-         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <!-- Popper.js -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <!-- Bootstrap JS -->
