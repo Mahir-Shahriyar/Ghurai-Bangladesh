@@ -106,7 +106,7 @@
                 <div class="row">
 
                     <div class="col-md-4 col-sm-4">
-                        <a href="cox.php">
+                        <a href="sundorban_hotel.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/sbhotel.jpg">
@@ -118,6 +118,7 @@
                     </div>
                     </a>
                     <div class="col-md-4 col-sm-4">
+                        <a href="sundorban_spot.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/sbspot.jpg">
@@ -126,8 +127,10 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4">
+                        <a href="sundorban_transport.php">
                         <div class="card-deck">
                             <div class="card">
                                 <img class="card-img-top" src="images/sbship.jpg">
@@ -137,6 +140,7 @@
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
