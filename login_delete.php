@@ -74,85 +74,37 @@
         </header>
     </body>
 
-    <br><br><br><br><br><br><br>
+    <br><br><br><br>
     <body>
-        
+
+        <?php
+            $id = $_GET['id'];
+            require_once('db_connect.php');
+            session_start();
+
+            $connect = mysqli_connect(HOST,USER,PASS,DB) or die ("Cannot connect with database");
+
+            mysqli_query($connect, "DELETE FROM person WHERE person_id = '$id' ") or die("Cannot execute query");
+            printf('<div class = "ui text container">');
+            echo "Your Account have been deleted ..<br> Please Sign Up your account. <br><br><br><br>";
+            echo "<p><a href=registration.html> Sign-Up-here>> </a> <br>";
+            printf('</div');
 
 
-		<?php
-			
-			require_once("db_connect.php");
-			session_start();
+        ?>
 
-			if(isset($_POST["email"])&&isset($_POST["pass"]))
-			{
-				$email=$_POST["email"];
-			    $pass = $_POST["pass"];
-
-			    $_SESSION["email"]=$email;
-
-                $connect = mysqli_connect(HOST, USER, PASS, DB) or die("Cannot connect with database");
-			    $result= mysqli_query($connect, "SELECT * FROM person WHERE person_email = '$email' and person_password = '$pass'") or die ("Cannot execute query");
-
-                if($result->num_rows == 1)
-                {
-                    printf('<div class = "ui text container" >');
-
-                    printf('<table class = "ui unstackable table">');
-
-                    echo "<th>  Your Name  </th> <th> Your Phone No </th> <th> Your Email ID </th> <th> Your Password   </th> <th></th> <th></th> \n";
-                    while($rows= mysqli_fetch_array($result))
-                    {
-                        extract($rows);
-                        echo "<tr>";
-                        echo "<td> $person_name </td>";
-                        echo "<td> $person_phone </td>";
-                        echo "<td> $person_email </td>";
-                        echo "<td> $person_password </td>";
-
-                        echo "<td> <a href='update_user_info.php?id=$person_id&name=$person_name&email=$person_email&phone=$person_phone&pass=$person_password'> Update </a> </td>";
-                        
-                        echo "<td> <a href='login_delete.php?id=$person_id'> DELETE ACCOUNT </a> </td>";
-
-                        echo "</tr>\n";
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-                    }
-
-                    printf('</table');
-                    printf('</div');
-
-                }
-
-                else
-                {
-                    printf('<div class = "ui text container" >');
-                    echo "Your Password is incorrect. Kindly Login again..<br><br><br><br> ";
-                    echo "<p><a href=signin.html> Sign In>> </a> <br>";
-
-                    printf('</div');
-                }
-
-			  	
-			}
-
-
-		?>
-
-
-
-         <!-- Footer Section Start Here -->
-       <!-- <section class="footer-bottom">
+        <!-- Footer Section Start Here -->
+        <section class="footer-bottom">
             <div class="container">
                 <div class="col-md-12 col-sm-12">
                     <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-                     <p>Design & Developed By : <a href="#">Group 1</a></p> 
+                    <!-- <p>Design & Developed By : <a href="#">Group 1</a></p> -->
                 </div>
             </div>
-        </section>-->
-        <!-- Footer Section Ends Here -->
-
-
+        </section>
 
 
          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
