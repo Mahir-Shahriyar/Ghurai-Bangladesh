@@ -50,7 +50,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="home.html">Home</a>
                                     </li>
 
                                     <li class="nav-item">
@@ -72,14 +72,7 @@
                 </div>
             </div>
         </header>
-        <section class="footer-bottom">
-            <div class="container">
-                <div class="col-md-12 col-sm-12">
-                    <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-
-                </div>
-            </div>
-        </section>
+        
     </body>
 
     <br><br><br><br><br>
