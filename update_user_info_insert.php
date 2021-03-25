@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Sign in</title>
+        <title>Sign In</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -50,11 +50,11 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="home.html">Home</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="menu.html">Spots</a>
+                                        <a class="nav-link" href="spots.html">Spots</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="gallery.html">Gallery</a>

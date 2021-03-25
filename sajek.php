@@ -27,33 +27,7 @@
     </head>
 
     <body>
-        <!-- Header Top Section Start Here -->
-        <section class="header-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="call-info">
-                            <p>Call for Reservation :
-                                <a href="tel:017711-208-4041">01771-120840-41 </a> /
-                                <a href="tel:024-895-5952">+88 02 48955952</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="social-icon text-right">
-                            <ul>
-                                <li><a href="https://www.google.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.google.com/"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.google.com/"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.google.com/"><i class="fab fa-google"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Header Top Section Ends Here -->
-
+        
         <!-- Header Section Start Here -->
         <header class="header" id="header">
             <div class="container">
@@ -72,13 +46,10 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="home.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="menu.html">Menu</a>
+                                        <a class="nav-link" href="spots.html">Spots</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="gallery.html">Gallery</a>
@@ -87,7 +58,7 @@
                                         <a class="nav-link active" href="booking.html">Booking</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link" href="signin.html">SignUp/In</a>
                                     </li>
                                 </ul>
                             </div>

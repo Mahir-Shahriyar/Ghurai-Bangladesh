@@ -72,14 +72,6 @@
                 </div>
             </div>
         </header>
-        <section class="footer-bottom">
-            <div class="container">
-                <div class="col-md-12 col-sm-12">
-                    <p>© Ghurai Bangladesh. All Rights Reserved.</p>
-
-                </div>
-            </div>
-        </section>
     </body>
 <br><br><br><br><br>
     <body>
