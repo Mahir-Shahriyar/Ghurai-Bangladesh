@@ -180,7 +180,7 @@ ul {
 /* ************************ About Page Style Start Here *************************** */
 
 .about-banner {
-    background: url(../images/coxs-bazar-1.png) no-repeat top;
+    background: url(../images/Gallery/gallery-banner.jpg) no-repeat top;
     height: 400px;
     background-size: cover;
     position: relative;
@@ -321,7 +321,7 @@ ul {
 /* Menu Banner Style Start Here */
 
 .menu-banner {
-    background: url(../images/rangamati.jpg) no-repeat top;
+    background: url(../images/Spots/spots-banner.jpg) no-repeat top;
     height: 400px;
     background-size: cover;
     position: relative;
