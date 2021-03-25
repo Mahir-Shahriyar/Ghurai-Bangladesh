@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Cox</title>
+        <title>Cox's Bazar</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -49,11 +49,11 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link" href="home.html">Home</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="menu.html">Menu</a>
+                                        <a class="nav-link" href="spots.html">Spots</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="gallery.html">Gallery</a>
@@ -62,7 +62,7 @@
                                         <a class="nav-link active" href="booking.html">Booking</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link" href="signin.html">SignUp/In</a>
                                     </li>
                                 </ul>
                             </div>
@@ -100,7 +100,7 @@
                             <div class="card">
                                 <img class="card-img-top" src="images/place.jpg">
                                 <div class="card-body">
-                                    <h3>tourist Sport</h3>
+                                    <h3>Tourist Spot</h3>
                                 </div>
                             </div>
                         </div>
