@@ -879,3 +879,10 @@ ul {
 .item img {
 	width: 1000px;
 }
+
+
+
+.center {
+  text-align: center;
+  color: red;
+}
