@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Sign up</title>
+        <title>Complain_received</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="css/semantic.min.css">
     </head>
 
-    <body>
+     <body>
         <!-- Header Top Section Start Here -->
 
         <!-- Header Top Section Ends Here -->
@@ -50,23 +50,10 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="home.html">Home</a>
+                                        <a class="nav-link" href="home.html">Go to Home</a>
                                     </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="spots.html">Spots</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="booking.html">Booking</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="signin.html">SignIn/Up</a>
-                                    </li>
+                                   
                                 </ul>
-                            </div>
                           </nav>
                     </div>
                 </div>
@@ -75,46 +62,30 @@
 
      </body>
 
-     <body>
-
-			<?php
-				require_once('db_connect.php');
-
-				$name = $_POST["name"];
-				$phone = $_POST["phone"];
-				$email = $_POST["email"];
-				$pass = $_POST["pass"];
-				$c_pass = $_POST["cpass"];
-
-				if($name&&$phone&&$email&&$pass&&$c_pass)
-				{
-					if($pass == $c_pass)
-					{
-						require_once('db_connect.php');
-						$connect = mysqli_connect(HOST, USER,PASS, DB) or die ("cannot connect with database");
-						mysqli_query($connect, "INSERT INTO person (person_id, person_name, person_email, person_phone, person_password) VALUES ('', '$name', '$email','$phone', '$pass')") or die ("Error is in insertion!!!");
 
 
-						echo " Successfully Registration Completed!!!<br><br><br>";
-						echo "Name = $name<br> Phone = $phone <br> Email = $email <br> Password = $pass<br>";
 
-					}
-					else
-					{
-						echo " Your password doesn't match!!!";
-					}
-					$connect->close();
-				}
-				else
-				{
-					echo "Error during insertion..<br>";
-				}
+    <body>
+
+		<?php
+
+				//$name = $_POST['lname'];
+				//$phone = $_POST['phone'];
+				$email = $_POST['email'];
+				$complain = $_POST['w3review'];
+				
+		 		require_once("db_connect.php");
+				$connect = mysqli_connect( HOST, USER, PASS, DB )
+                 or die("Can not connect");
+				
+				mysqli_query($connect, "INSERT INTO complainbox (complain_no, cust_email, complain)VALUES ('','$email','$complain' )")
+				                 or die ("Error is in insertion!!!");
 
 
-			?>
+				echo " <br><br><br><br><br> >>    Your Complain has been received. We will solve your problem and send it to the related authoritires as soon as possible";
 
-			<br><br><br><br> <br><br><br> 
-			<br><br><br> <br><br><br><br>
+		?>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 		 <section class="footer-bottom">
 		            <div class="container">
