@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Guide Information Check</title>
+	</head>
+	<body>
+
+	<h1>Fetch content from backend using AJAX about guide information</h1>
+	<p id="content"></p>
+	<button>Load content</button>
+
+	<script type="text/javascript">
+		function loadFromServer() {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+			  if (this.readyState == 4 && this.status == 200) {
+			    var myObj = JSON.parse(this.responseText);
+			    document.getElementById("content").style.color = "black";
+			    document.getElementById("content").innerHTML = "";
+			    if (myObj.status === "OK")
+			    {
+			    	
+			    	for (let i = 0; i < myObj.content.length; i++)
+			    		document.getElementById("content").innerHTML += myObj.content[i].person_id + " >> "+ myObj.content[i].person_name + " ( "+myObj.content[i].person_email +" , "+myObj.content[i].person_phone+ " ) "+ "<br>";	
+			    	
+
+			    	document.getElementById("content").innerHTML += "The number of records = " + myObj.content.length;
+			    }
+			   
+			    else {
+			    	document.getElementById("content").innerHTML = "An error has occured <br>" + myObj.content;
+			    	document.getElementById("content").style.color = "red";
+			    }
+			    // console.log(myObj);
+			  }
+			};
+			xmlhttp.open("GET", "guide_backend.php", true);
+			xmlhttp.send();
+		}
+
+		document.querySelector('button').addEventListener('click', loadFromServer);
+		
+	</script>
+	<br><br><br>
+	<a href= "../adminportal.html">Go to admin home page>>
+	</body>
+</html>
