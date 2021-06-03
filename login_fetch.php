@@ -53,17 +53,15 @@
                                         <a class="nav-link" href="home.html">Home</a>
                                     </li>
 
+                                    
                                     <li class="nav-item">
-                                        <a class="nav-link" href="spots.html">Spots</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
+                                        <a class="nav-link" href="help.html">Help</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link active" href="booking.html">Booking</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="signin.html">SignUP/IN</a>
+                                        <a class="nav-link" href="signin.html">Account</a>
                                     </li>
                                 </ul>
                             </div>
@@ -74,10 +72,12 @@
         </header>
     </body>
 
-    <br><br><br><br><br><br><br>
+    <br><br><br>
     <body>
         
-
+        <h1 style="text-align:center">Thanks for login</h1>
+        <br>
+        <h1 style="text-align:center">Your information</h1>
 
 		<?php
 			

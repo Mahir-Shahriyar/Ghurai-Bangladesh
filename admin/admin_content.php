@@ -75,6 +75,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="../home.html">Back to Home</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/adminportal.html">Portal</a>
+                                </li>
                                
                             </ul>
                         </div>
@@ -107,9 +110,8 @@
                      while($rows= mysqli_fetch_array($result))
                     {
                         extract($rows);
-                        echo" <br><br><br><h3> Welcome Admin $admin_name !!!</h3><br>";
+                        echo" <br><br><br><h3 style=text-align:center > Welcome Admin $admin_name !!!</h3><br>";
                     
-                        echo" <button class= button button1> <a href = ../admin/adminportal.html>homepage</a> </button>";
                     }
                 }
 
