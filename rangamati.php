@@ -121,21 +121,22 @@
         </section>
 
         <!-- Birthday Event Section Ends Here -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <h3 >You may like this</h3>
+
+          <a href="http://localhost/Ghurai-Bangladesh/sylhet.php" >
+              Sylet Tour</a><br>
+
+            <a href="http://localhost/Ghurai-Bangladesh/sajek.php" >
+              Sajek</a><br>
+
+              <a href="http://localhost/Ghurai-Bangladesh/rangamati.php" >
+              Rangamati</a><br>
+
+              <a href="http://localhost/Ghurai-Bangladesh/bandarban.php" >
+              Bandarban</a><br>
+
+              <a href="http://localhost/Ghurai-Bangladesh/sundorban.php" >
+              Sundarban</a><br>
         <!-- MARRIAGE Event Section Start Here -->
 
         <!-- MARRIAGE Event Section Ends Here -->
