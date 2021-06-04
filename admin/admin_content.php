@@ -16,8 +16,8 @@
 }
 
 .button1 {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 5px solid #4CAF50;
 }
 
@@ -78,7 +78,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="../admin/adminportal.html">Portal</a>
                                 </li>
-                               
+
                             </ul>
                         </div>
                       </nav>
@@ -88,9 +88,9 @@
     </header>
 </body>
 
-     <body>   
+     <body>
     <?php
-            
+
             require_once("../db_connect.php");
             session_start();
 
@@ -111,14 +111,16 @@
                     {
                         extract($rows);
                         echo" <br><br><br><h3 style=text-align:center > Welcome Admin $admin_name !!!</h3><br>";
-                    
+
+
+
                     }
                 }
 
-               
+
                 else
                 {
-                  
+
                     echo "Sorry! Your Password is incorrect. Kindly Login again..<br><br><br><br> ";
                     echo "<p><a href= admin_login.html> Sign In>> </a> <br>";
 
@@ -127,6 +129,6 @@
             }
 
     ?>
-    
+
 </body>
 </html>
