@@ -1,0 +1,14 @@
+site_name: Home
+
+site_name: Intro
+
+
+site_name: Ghurai Bangladesh
+nav:
+    - Home: index.md
+    - introduction: intro.md
+    - complain: complain.md
+    - booking: booking.md
+    - Admin Portal : admin.md
+
+theme: readthedocs
