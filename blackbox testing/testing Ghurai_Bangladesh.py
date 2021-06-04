@@ -63,22 +63,6 @@ def admin_Portal():
 	txt_back_home.click()
 	print("Back to Admin HomePage")
 
-	#guide json page
-
-	btncustomer = driver.find_element_by_xpath('/html/body/div/section/button[4]')
-	btncustomer.click()
-	time.sleep(5)
-	print("guide option choose")
-	btnloadcust = driver.find_element_by_xpath('/html/body/button')
-	btnloadcust.click()
-	print("guide information fetch")
-	time.sleep(3)
-	txt_back_home = driver.find_element_by_xpath('/html/body/a')
-	txt_back_home.click()
-	print("Back to Admin HomePage")
-
-
-	time.sleep(3)
 
 
 	driver.close()
